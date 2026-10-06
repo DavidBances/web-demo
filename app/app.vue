@@ -133,26 +133,17 @@
           </div>
         </div>
 
-        <!-- Mapa de Ejemplo (Aquí se pega el iframe de Google Maps real) -->
+        <!-- Mapa de Google Maps REAL (100% Responsive) -->
         <div
-          class="h-96 bg-gray-200 rounded-2xl overflow-hidden shadow-inner flex items-center justify-center relative border border-gray-200"
+          class="w-full h-72 md:h-96 rounded-2xl overflow-hidden shadow-inner border border-gray-200"
         >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8147.277750226775!2d-5.575561735182648!3d42.5980651481767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd379a9b863a0fab%3A0x13727554f4d5e06a!2sCatedral%20de%20Le%C3%B3n!5e1!3m2!1ses!2ses!4v1791304589547!5m2!1ses!2ses"
-            width="100%"
-            height="100%"
-            style="border: 0"
-            allowfullscreen
+            class="w-full h-full border-0"
+            allowfullscreen="true"
             loading="lazy"
             referrerpolicy="strict-origin-when-cross-origin"
           ></iframe>
-          <div
-            class="z-10 text-center bg-white/90 p-6 rounded-xl shadow-sm backdrop-blur-sm mx-4"
-          >
-            <p class="font-bold text-gray-800 mb-2">
-              Aquí va el mapa interactivo
-            </p>
-          </div>
         </div>
       </div>
     </section>
